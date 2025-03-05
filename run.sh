@@ -10,6 +10,7 @@ javac @sources.txt
 
 java ro.academyplus.avaj.simulator.Simulator testScenario/empty.txt
 java ro.academyplus.avaj.simulator.Simulator testScenario/emptySimulationRun.txt
+java ro.academyplus.avaj.simulator.Simulator testScenario/invalidCoordinates.txt
 java ro.academyplus.avaj.simulator.Simulator testScenario/missingSimulationRun.txt
 java ro.academyplus.avaj.simulator.Simulator testScenario/negativeCoordinates.txt
 java ro.academyplus.avaj.simulator.Simulator testScenario/negativeHeight.txt
