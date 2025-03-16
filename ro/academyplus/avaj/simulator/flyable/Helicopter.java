@@ -37,7 +37,7 @@ public class Helicopter extends Aircraft {
         }
         if (coordinates.getHeight() <= 0) {
             Logger.log("Helicopter#" + name + "(" + id + "): landing.");
-            weatherTower.unregister(null);
+            weatherTower.unregister(this);
             Logger.log("Tower says: Helicopter#" + name + "(" + id + ") unregistered from weather tower");
         }
     }

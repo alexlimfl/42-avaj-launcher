@@ -1,0 +1,127 @@
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Baloon#B2(2) registered to weather tower.
+Tower says: JetPlane#J1(3) registered to weather tower.
+Tower says: Helicopter#H1(4) registered to weather tower.
+Tower says: Helicopter#H2(5) registered to weather tower.
+Tower says: Helicopter#H3(6) registered to weather tower.
+Tower says: Baloon#B3(7) registered to weather tower.
+Tower says: JetPlane#J2(8) registered to weather tower.
+Tower says: Helicopter#H4(9) registered to weather tower.
+Baloon#B1(1): Coordinates: 2, 3, 20: Damn you rain! You messed up my baloon.
+Baloon#B2(2): Coordinates: 1, 8, 66: It's snowing. We're gonna crash.
+JetPlane#J1(3): Coordinates: 23, 44, 32: OMG! Winter is coming!
+Helicopter#H1(4): Coordinates: 654, 33, 20: My rotor is going to freeze!
+Helicopter#H2(5): Coordinates: 22, 33, 44: My rotor is going to freeze!
+Helicopter#H3(6): Coordinates: 98, 68, 99: It's raining, let's get out of here!
+Baloon#B3(7): Coordinates: 102, 22, 34: It's snowing. We're gonna crash.
+JetPlane#J2(8): Coordinates: 11, 99, 100: OMG! Winter is coming!
+Helicopter#H4(9): Coordinates: 223, 23, 54: This is hot
+Baloon#B1(1): Coordinates: 2, 3, 15: Let's enjoy the good weather and take some pics.
+Baloon#B2(2): Coordinates: 1, 8, 51: Let's enjoy the good weather and take some pics.
+JetPlane#J1(3): Coordinates: 23, 44, 25: Perfect weather, let's see what this thing can do!
+Helicopter#H1(4): Coordinates: 654, 33, 8: My rotor is going to freeze!
+Helicopter#H1(4): landing.
+Tower says: Helicopter#H1(4) unregistered from weather tower
+Helicopter#H2(5): Coordinates: 22, 33, 32: My rotor is going to freeze!
+Helicopter#H3(6): Coordinates: 103, 68, 99: My rotor is going to freeze!
+Baloon#B3(7): Coordinates: 102, 22, 19: It's snowing. We're gonna crash.
+JetPlane#J2(8): Coordinates: 11, 99, 93: OMG! Winter is coming!
+Helicopter#H4(9): Coordinates: 233, 23, 56: This is hot
+Baloon#B1(1): Coordinates: 4, 3, 19: It's snowing. We're gonna crash.
+Baloon#B2(2): Coordinates: 3, 8, 55: It's snowing. We're gonna crash.
+JetPlane#J1(3): Coordinates: 23, 54, 27: Perfect weather, let's see what this thing can do!
+Helicopter#H2(5): Coordinates: 22, 33, 20: My rotor is going to freeze!
+Helicopter#H3(6): Coordinates: 103, 68, 87: My rotor is going to freeze!
+Baloon#B3(7): Coordinates: 102, 22, 4: Let's enjoy the good weather and take some pics.
+JetPlane#J2(8): Coordinates: 11, 99, 86: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 243, 23, 58: This is hot
+Baloon#B1(1): Coordinates: 4, 3, 4: It's snowing. We're gonna crash.
+Baloon#B1(1): landing.
+Tower says: Baloon#B1(1) unregistered from weather tower
+Baloon#B2(2): Coordinates: 3, 8, 40: It's snowing. We're gonna crash.
+JetPlane#J1(3): Coordinates: 23, 64, 29: Perfect weather, let's see what this thing can do!
+Helicopter#H2(5): Coordinates: 22, 33, 8: My rotor is going to freeze!
+Helicopter#H2(5): landing.
+Tower says: Helicopter#H2(5) unregistered from weather tower
+Helicopter#H3(6): Coordinates: 103, 68, 75: My rotor is going to freeze!
+Baloon#B3(7): Coordinates: 104, 22, 8: It's snowing. We're gonna crash.
+Baloon#B3(7): landing.
+Tower says: Baloon#B3(7) unregistered from weather tower
+JetPlane#J2(8): Coordinates: 11, 109, 88: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 253, 23, 60: This is hot
+Baloon#B2(2): Coordinates: 3, 8, 25: Let's enjoy the good weather and take some pics.
+JetPlane#J1(3): Coordinates: 23, 74, 31: Perfect weather, let's see what this thing can do!
+Helicopter#H3(6): Coordinates: 103, 68, 63: My rotor is going to freeze!
+JetPlane#J2(8): Coordinates: 11, 119, 90: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 263, 23, 62: This is hot
+Baloon#B2(2): Coordinates: 5, 8, 29: It's snowing. We're gonna crash.
+JetPlane#J1(3): Coordinates: 23, 84, 33: Perfect weather, let's see what this thing can do!
+Helicopter#H3(6): Coordinates: 103, 68, 51: My rotor is going to freeze!
+JetPlane#J2(8): Coordinates: 11, 129, 92: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 273, 23, 64: This is hot
+Baloon#B2(2): Coordinates: 5, 8, 14: It's snowing. We're gonna crash.
+Baloon#B2(2): landing.
+Tower says: Baloon#B2(2) unregistered from weather tower
+JetPlane#J1(3): Coordinates: 23, 94, 35: Perfect weather, let's see what this thing can do!
+Helicopter#H3(6): Coordinates: 103, 68, 39: My rotor is going to freeze!
+JetPlane#J2(8): Coordinates: 11, 139, 94: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 283, 23, 66: This is hot
+JetPlane#J1(3): Coordinates: 23, 104, 37: Perfect weather, let's see what this thing can do!
+Helicopter#H3(6): Coordinates: 103, 68, 27: My rotor is going to freeze!
+JetPlane#J2(8): Coordinates: 11, 149, 96: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 293, 23, 68: This is hot
+JetPlane#J1(3): Coordinates: 23, 114, 39: Perfect weather, let's see what this thing can do!
+Helicopter#H3(6): Coordinates: 103, 68, 15: My rotor is going to freeze!
+JetPlane#J2(8): Coordinates: 11, 159, 98: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 303, 23, 70: This is hot
+JetPlane#J1(3): Coordinates: 23, 124, 41: Perfect weather, let's see what this thing can do!
+Helicopter#H3(6): Coordinates: 103, 68, 3: My rotor is going to freeze!
+Helicopter#H3(6): landing.
+Tower says: Helicopter#H3(6) unregistered from weather tower
+JetPlane#J2(8): Coordinates: 11, 169, 100: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 313, 23, 72: This is hot
+JetPlane#J1(3): Coordinates: 23, 134, 43: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 179, 100: OMG! Winter is coming!
+Helicopter#H4(9): Coordinates: 323, 23, 74: This is hot
+JetPlane#J1(3): Coordinates: 23, 144, 45: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 179, 93: OMG! Winter is coming!
+Helicopter#H4(9): Coordinates: 333, 23, 76: This is hot
+JetPlane#J1(3): Coordinates: 23, 154, 47: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 179, 86: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 343, 23, 78: This is hot
+JetPlane#J1(3): Coordinates: 23, 164, 49: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 189, 88: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 353, 23, 80: This is hot
+JetPlane#J1(3): Coordinates: 23, 174, 51: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 199, 90: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 363, 23, 82: This is hot
+JetPlane#J1(3): Coordinates: 23, 184, 53: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 209, 92: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 373, 23, 84: This is hot
+JetPlane#J1(3): Coordinates: 23, 194, 55: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 219, 94: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 383, 23, 86: This is hot
+JetPlane#J1(3): Coordinates: 23, 204, 57: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 229, 96: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 393, 23, 88: This is hot
+JetPlane#J1(3): Coordinates: 23, 214, 59: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 239, 98: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 403, 23, 90: This is hot
+JetPlane#J1(3): Coordinates: 23, 224, 61: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 249, 100: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 413, 23, 92: This is hot
+JetPlane#J1(3): Coordinates: 23, 234, 63: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 259, 100: OMG! Winter is coming!
+Helicopter#H4(9): Coordinates: 423, 23, 94: This is hot
+JetPlane#J1(3): Coordinates: 23, 244, 65: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 259, 93: OMG! Winter is coming!
+Helicopter#H4(9): Coordinates: 433, 23, 96: This is hot
+JetPlane#J1(3): Coordinates: 23, 254, 67: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 259, 86: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 443, 23, 98: This is hot
+JetPlane#J1(3): Coordinates: 23, 264, 69: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 269, 88: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 453, 23, 100: This is hot
+JetPlane#J1(3): Coordinates: 23, 274, 71: Perfect weather, let's see what this thing can do!
+JetPlane#J2(8): Coordinates: 11, 279, 90: Perfect weather, let's see what this thing can do!
+Helicopter#H4(9): Coordinates: 463, 23, 100: My rotor is going to freeze!

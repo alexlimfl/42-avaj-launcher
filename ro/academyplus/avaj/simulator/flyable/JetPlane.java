@@ -36,7 +36,7 @@ public class JetPlane extends Aircraft {
         }
         if (coordinates.getHeight() <= 0) {
             Logger.log("JetPlane#" + name + "(" + id + "): landing.");
-            weatherTower.unregister(null);
+            weatherTower.unregister(this);
             Logger.log("Tower says: JetPlane#" + name + "(" + id + ") unregistered from weather tower");
         }
     }

@@ -37,7 +37,7 @@ public class Baloon extends Aircraft {
         }
         if (coordinates.getHeight() <= 0) {
             Logger.log("Baloon#" + name + "(" + id + "): landing.");
-            weatherTower.unregister(null);
+            weatherTower.unregister(this);
             Logger.log("Tower says: Baloon#" + name + "(" + id + ") unregistered from weather tower");
         }
     }
