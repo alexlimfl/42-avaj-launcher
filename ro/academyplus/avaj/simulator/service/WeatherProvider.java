@@ -4,9 +4,10 @@ import ro.academyplus.avaj.simulator.flyable.Coordinates;
 
 public class WeatherProvider {
     private static WeatherProvider single_instance = null;
-    private static String[] weather = {"SUN", "RAIN", "SNOW", "SNOW"};
+    private static String[] weather = {"SUN", "RAIN", "FOG", "SNOW"};
 
     public static synchronized WeatherProvider getInstance() {
+        // synchronized: lock method, prevents race condition, one thread executes at a time
         if (single_instance == null)
             single_instance = new WeatherProvider();
         return single_instance;

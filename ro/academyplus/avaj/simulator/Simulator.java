@@ -15,8 +15,8 @@ import ro.academyplus.avaj.simulator.customexceptions.NegativeRunTimeException;
 import ro.academyplus.avaj.simulator.flyable.Coordinates;
 import ro.academyplus.avaj.simulator.flyable.Flyable;
 import ro.academyplus.avaj.simulator.service.AircraftFactory;
-import ro.academyplus.avaj.simulator.service.Logger;
 import ro.academyplus.avaj.simulator.tower.WeatherTower;
+import ro.academyplus.avaj.simulator.utils.Logger;
 
 public class Simulator {
     private static AircraftFactory factory = AircraftFactory.getInstance();

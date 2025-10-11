@@ -1,4 +1,4 @@
-package ro.academyplus.avaj.simulator.service;
+package ro.academyplus.avaj.simulator.utils;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
