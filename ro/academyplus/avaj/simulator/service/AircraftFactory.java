@@ -21,9 +21,9 @@ public class AircraftFactory {
         id_num++;
         if (str.equals("helicopter"))
             return new Helicopter(id_num, p_name, p_coordinates);
-        else if (str.equals("jetplane"))
+        if (str.equals("jetplane"))
             return new JetPlane(id_num, p_name, p_coordinates);
-        else if (str.equals("baloon") )
+        if (str.equals("baloon"))
             return new Baloon(id_num, p_name, p_coordinates);
         return null;
     }

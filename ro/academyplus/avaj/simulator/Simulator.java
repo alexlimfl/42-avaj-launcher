@@ -24,12 +24,11 @@ public class Simulator {
     private static List<Flyable> flyables = new ArrayList<>();
     private static int numberRun;
 
-    
     private static void isValidInput(String[] args) {
         if (args.length != 1)
             throw new InvalidInputException("Invalid input: One file is required!");
     }
-    
+
     private static void isTextFile(String fileName) {
         if (!fileName.endsWith(".txt"))
             throw new NotTextFileException("Invalid file type: Program only accept .txt file!");
@@ -42,7 +41,7 @@ public class Simulator {
 
     private static void isValidCoordinates(int longitude, int latitude, int height) {
         if (longitude < 0 || latitude < 0 || height < 0)
-            throw new InvalidCoordinatesException("longitude/latitude/height must be positive numbers !");
+            throw new InvalidCoordinatesException("longitude/latitude/height must be positive numbers!");
         if (height > 100)
             throw new InvalidCoordinatesException("Invalid height: Range: 0 - 100 only!");
     }
@@ -54,8 +53,8 @@ public class Simulator {
 
     private static void parse(String line) {
         String[] words = line.split("\\s+");
-        
-        int longitude = 0,latitude = 0, height = 0;
+
+        int longitude = 0, latitude = 0, height = 0;
         try {
             isValidFormat(words);
             longitude = Integer.parseInt(words[2]);
@@ -63,7 +62,7 @@ public class Simulator {
             height = Integer.parseInt(words[4]);
             isValidCoordinates(longitude, latitude, height);
         } catch (NumberFormatException e) {
-            System.out.println("Error: Invalid data type for longitude/latitude/height !");
+            System.out.println("Error: Invalid data type for longitude/latitude/height!");
             Logger.deleteLog();
             System.exit(0);
         } catch (RuntimeException e) {
@@ -75,8 +74,9 @@ public class Simulator {
         Coordinates coordinates = new Coordinates(longitude, latitude, height);
         Flyable newFlyable = factory.newAircraft(words[0], words[1], coordinates);
         if (newFlyable == null) {
-            Logger.log("Tower says: Invalid Aircraft " + words[0] + "#" + words[1] + " not registered to weather tower!");
-            return ;
+            Logger.log(
+                    "Tower says: Invalid Aircraft " + words[0] + "#" + words[1] + " not registered to weather tower!");
+            return;
         }
         flyables.add(newFlyable);
         newFlyable.registerTower(towerSouth);
@@ -90,7 +90,7 @@ public class Simulator {
         BufferedReader br = new BufferedReader(fr); // FileReader wrapper
         String line;
         int lineCounter = 0;
-        
+
         while ((line = br.readLine()) != null) {
             if (lineCounter == 0) {
                 try {
@@ -103,7 +103,8 @@ public class Simulator {
                 } catch (RuntimeException e) {
                     System.out.println("Error: " + e.getMessage());
                     Logger.deleteLog();
-                    System.exit(0);                }
+                    System.exit(0);
+                }
             } else {
                 parse(line);
             }
@@ -123,9 +124,9 @@ public class Simulator {
     }
 
     public static void main(String[] args) {
-        String fileName = args[0];
         try {
             isValidInput(args);
+            String fileName = args[0];
             isTextFile(fileName);
             readFile(fileName);
         } catch (RuntimeException e) {
